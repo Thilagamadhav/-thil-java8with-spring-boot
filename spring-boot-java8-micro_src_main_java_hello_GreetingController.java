@@ -14,7 +14,7 @@ import java.util.Random;
 import java.util.function.Function;
 
 @Controller
-public class GreetingController {
+public class WelcomeController {
 
     private Log log = LogFactory.getLog(GreetingController.class);
 
