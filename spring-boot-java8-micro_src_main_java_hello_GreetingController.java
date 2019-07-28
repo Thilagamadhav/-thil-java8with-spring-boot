@@ -16,9 +16,9 @@ import java.util.function.Function;
 @Controller
 public class WelcomeController {
 
-    private Log log = LogFactory.getLog(GreetingController.class);
+    private Log log = LogFactory.getLog(WelcomeController.class);
 
-    List<String> persons = Arrays.asList("Walter White", "Heisenberg", "Jesse Pinkman", "Saul Goodman", "Gustavo Fringe");
+    List<String> persons = Arrays.asList("Madhav", "Dhiya", "Sarasu", "Vel", "Ramani");
 
     Function<List<String>, String> random = (List<String> list) -> list.get(new Random().nextInt(list.size() - 1));
 
